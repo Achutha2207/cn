@@ -66,4 +66,3 @@ exec xgraph win3.tr &
 exit 0
 }
 $ns run
-
