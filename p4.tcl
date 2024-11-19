@@ -41,5 +41,3 @@ $ns at 0.01 "$ftp start"
 $ns at 15.0 "$ftp stop"
 $ns at 15.1 "finish"
 $ns run
-
-
