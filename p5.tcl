@@ -126,6 +126,3 @@ $n6 color blue
 $n7 label "Receiver 3"
 $n7 color blue
 $ns run
-
-
-
