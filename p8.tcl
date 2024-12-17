@@ -12,7 +12,7 @@ set val(rp) AODV
 set val(nn) 51
 set val(stop) 100.0
 set val(sc) "a3"
-#set val(cp) "a2"
+set val(cp) "a2"
 
 set ns_ [new Simulator]
 set tf [open 003.tr w]
@@ -56,7 +56,7 @@ for { set i 0 } { $i < $val(nn) } { incr i } {
 $ns_ initial_node_pos $node_($i) 40
 }
 source $val(sc)
-#source $val(cp)
+source $val(cp)
 for { set i 0 } { $i < $val(nn) } { incr i } {
 $ns_ at $val(stop) "$node_($i) reset";
 }
