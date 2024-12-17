@@ -86,7 +86,7 @@ $ns connect $tcp0 $sink0
 
 set ftp0 [new Application/FTP]
 $ftp0 attach-agent $tcp0
-$ns at 10.0 "$ftp0 start"
+$ns at 1.0 "$ftp0 start"
 
 # Simulation termination
 for {set i 0} {$i < $val(nn)} {incr i} {
