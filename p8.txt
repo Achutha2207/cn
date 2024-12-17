@@ -1,0 +1,9 @@
+ns cbrgen.tcl
+###ns cbrgen.tcl -type tcp -nn 25 -seed 2 -mc 10 -rate 10 > static
+
+
+mobile->
+cd setdest
+set setdest
+setdest
+###setdest -v 1 -n 25 -p 10 -M 10 -t 100 -x 500 -y 500 > mobile
